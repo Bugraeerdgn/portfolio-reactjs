@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../App.css'; // Stiller için
+import '../App.css';
 
 function Projects({ fetchUrl, title = "Project" }) {
   const [projects, setProjects] = useState([]);
